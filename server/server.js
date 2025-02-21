@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use(cors({
-  origin: [""],
+  origin: ["https://student-marks-management-vercel-g2zo.vercel.app"],
   methods: ["POST", "GET"],
   credentials: true
 }));
